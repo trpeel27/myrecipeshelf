@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support | My Recipe Shelf</title>
+  <meta name="description" content="Support information for My Recipe Shelf." />
+  <style>
+    :root { --cream:#fbf4e8; --paper:#fffaf1; --ink:#2f241c; --muted:#756758; --accent:#b65334; --border:#ead9bf; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--cream); color:var(--ink); line-height:1.6; }
+    .wrap { width:min(880px, calc(100% - 32px)); margin:0 auto; }
+    header { padding:28px 0; border-bottom:1px solid var(--border); }
+    nav { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+    .brand { font-weight:800; font-size:1.2rem; }
+    a { color:var(--accent); }
+    main { padding:52px 0 70px; }
+    h1 { font-size:clamp(2.4rem, 5vw, 4rem); line-height:1; letter-spacing:-0.05em; margin:0 0 18px; }
+    .lead { color:var(--muted); font-size:1.15rem; max-width:700px; }
+    .card { background:var(--paper); border:1px solid var(--border); border-radius:24px; padding:24px; margin-top:22px; }
+    h2 { margin:0 0 10px; font-size:1.35rem; }
+    p { margin:0 0 12px; }
+    ul { margin:8px 0 0; padding-left:22px; }
+    footer { color:var(--muted); padding:28px 0 42px; border-top:1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <div class="brand">My Recipe Shelf</div>
+      <a href="my-recipe-shelf.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h1>Support</h1>
+    <p class="lead">Need help with My Recipe Shelf? Here are answers to common questions and a way to contact support.</p>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>For support, questions, or feedback, email:</p>
+      <p><a href="mailto:support@keystonechms.com">support@keystonechms.com</a></p>
+      <p>Please include your device model, iOS version, and a short description of the issue.</p>
+    </section>
+
+    <section class="card">
+      <h2>Common Questions</h2>
+      <p><strong>How do I add a recipe?</strong></p>
+      <p>Tap the add button, enter a recipe title, choose a category, and add photos, ingredients, steps, or notes.</p>
+
+      <p><strong>Can I scan recipe photos?</strong></p>
+      <p>Yes. Add one or more recipe photos, then use Scan Recipe Photos to extract text into ingredients, steps, and notes.</p>
+
+      <p><strong>Does My Recipe Shelf sync with iCloud?</strong></p>
+      <p>Yes. When iCloud is available, your recipes can sync across devices signed in with the same Apple ID.</p>
+
+      <p><strong>Can I back up my recipes?</strong></p>
+      <p>Yes. Use Backup & Restore in the app settings to export a backup file.</p>
+    </section>
+
+    <section class="card">
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li>Make sure iCloud Drive is enabled if sync is not appearing on another device.</li>
+        <li>Keep the app open briefly after adding many photos so iCloud has time to sync.</li>
+        <li>If OCR misses text, try using a brighter, clearer photo with the recipe page straightened.</li>
+        <li>If a backup import fails, confirm the file has the correct My Recipe Shelf backup format.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Privacy</h2>
+      <p>My Recipe Shelf is designed for personal recipe organization. Recipe data is stored on your device and may sync using Apple iCloud when enabled. Backup files are controlled by you.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>&copy; 2026 My Recipe Shelf. All rights reserved.</p>
+  </footer>
+</body>
+</html>
